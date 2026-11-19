@@ -57,4 +57,4 @@ npx skills add chan-yuu/drawio-skills
 * `Agents365-ai/drawio-skill` — MIT（见 `UPSTREAM_LICENSES/LICENSE-Agents365-ai-drawio-skill.txt`）
 * `bahayonghang/drawio-skills` — MIT（见 `UPSTREAM_LICENSES/LICENSE-bahayonghang-drawio-skills.txt`）
 * `Will-hxw/drawio-diagram-builder` — MIT（见 `UPSTREAM_LICENSES/LICENSE-Will-hxw-drawio-diagram-builder.txt`）
-* `QIANJINYDX/research-drawio-skill` — 上游仓库未声明开源协议（因此本聚合仓库默认设为 **Private**，仅限个人使用与管理）
+* `QIANJINYDX/research-drawio-skill` — 上游仓库未声明开源协议（仅作个人学习与归档引用，请勿商用）
