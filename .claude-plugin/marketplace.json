@@ -1,0 +1,53 @@
+{
+  "name": "chan-yuu-drawio-skills",
+  "owner": {
+    "name": "chan-yuu",
+    "url": "https://github.com/chan-yuu/drawio-skills"
+  },
+  "description": "Personal draw.io skill suite aggregating Agents365-ai, bahayonghang (renamed drawio-yaml + drawio-academic-skills), Will-hxw, and QIANJINYDX — conflict-free with official jgraph/drawio-mcp.",
+  "plugins": [
+    {
+      "name": "drawio-arch",
+      "description": "Agents365-ai drawio-skill: architecture diagrams, code/IaC/SQL/OpenAPI importers, 10k+ shapes, 321 AI/LLM logos, self-check loop.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/drawio-skill"
+      ],
+      "category": "diagrams"
+    },
+    {
+      "name": "drawio-yaml-suite",
+      "description": "bahayonghang offline YAML-first draw.io base (renamed drawio-yaml) + drawio-academic-skills publication overlay.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/drawio-yaml",
+        "./skills/drawio-academic-skills"
+      ],
+      "category": "diagrams"
+    },
+    {
+      "name": "drawio-builder",
+      "description": "Will-hxw drawio-diagram-builder: top-conference paper method diagrams and screenshot-driven visual replication.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/drawio-diagram-builder"
+      ],
+      "category": "diagrams"
+    },
+    {
+      "name": "drawio-research",
+      "description": "QIANJINYDX research-drawio-skill: two-stage reference-to-drawio tracing (research-draw), draw-science, and add-svg.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/research-draw",
+        "./skills/draw-science",
+        "./skills/add-svg"
+      ],
+      "category": "diagrams"
+    }
+  ]
+}

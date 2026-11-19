@@ -1,0 +1,37 @@
+{
+  "name": "drawio-skills-suite",
+  "version": "1.0.0",
+  "description": "Personal draw.io skill suite (Agents365-ai drawio-skill, bahayonghang drawio-yaml + drawio-academic-skills, Will-hxw drawio-diagram-builder, QIANJINYDX research-draw/draw-science/add-svg) — conflict-free with official jgraph/drawio-mcp.",
+  "author": {
+    "name": "chan-yuu",
+    "url": "https://github.com/chan-yuu"
+  },
+  "homepage": "https://github.com/chan-yuu/drawio-skills",
+  "repository": "https://github.com/chan-yuu/drawio-skills",
+  "keywords": [
+    "drawio",
+    "diagrams",
+    "architecture",
+    "academic",
+    "research"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Draw.io Skills Suite",
+    "shortDescription": "Curated engineering & scientific draw.io skills (conflict-free with official drawio MCP)",
+    "longDescription": "Bundled draw.io skills covering architecture/IaC/code import (drawio-skill), offline YAML + publication overlay (drawio-yaml & drawio-academic-skills), screenshot-driven paper figure replication (drawio-diagram-builder), and two-stage scientific illustration tracing (research-draw, draw-science, add-svg).",
+    "developerName": "chan-yuu",
+    "category": "Productivity",
+    "capabilities": [
+      "Diagram generation",
+      "Scientific figures",
+      "Architecture modeling"
+    ],
+    "websiteURL": "https://github.com/chan-yuu/drawio-skills",
+    "defaultPrompt": [
+      "Use $drawio-academic-skills to draw an IEEE-style paper workflow figure.",
+      "Use $drawio-skill to visualize this codebase as a draw.io architecture diagram.",
+      "Use $drawio-diagram-builder to reproduce this reference figure as editable draw.io XML."
+    ]
+  }
+}
